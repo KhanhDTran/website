@@ -408,6 +408,9 @@ main{
         width: 96%;
     }
 
+    .container{
+        border-radius: 0%;
+    }
 }
 
 @media screen and (min-width: 901px) and (max-width: 1400px){
