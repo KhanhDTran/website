@@ -103,6 +103,7 @@ footer{
     border: gray solid 1px;
     margin-top: 10px;
     margin-bottom: 10px;
+    border-radius: 2%;
 }
 
 .row {
@@ -125,7 +126,7 @@ footer{
     width: 100%;
     border: solid 1px;
     border-radius: 3%;
-    margin-left: 10px;
+    margin-left: 0px;
 }
   
 
@@ -184,6 +185,7 @@ footer{
     border: solid 1px gray;
     display: flex;
     align-items: center;
+    border-radius: 2%;
 }
 
 .intro .img-logo{
@@ -295,6 +297,19 @@ footer{
     cursor: pointer;
 }
 
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+.aside{
+    width: 10%;
+}
+
+.main-content{
+    width: 80%;
+}
+
 @media screen and (max-width: 510px){
     body{
         overflow-x: hidden;
@@ -384,6 +399,13 @@ footer{
         margin-top: 50px;
         width: 90%;
         height: auto;
+    }
+    .aside{
+        width: 2%;
+    }
+    
+    .main-content{
+        width: 96%;
     }
 
 }
@@ -489,6 +511,14 @@ footer{
         margin-top: 100px;
         width: 90%;
         height: auto;
+    }
+
+    .aside{
+        width: 2%;
+    }
+    
+    .main-content{
+        width: 96%;
     }
     
 }
