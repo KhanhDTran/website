@@ -1,0 +1,8 @@
+1	Giá chăn ga gối Rayon mã SHBR-20006
+2	Chăn ga gối Sông Hồng Rayon SHBR-20005
+3	Chăn ga gối Sông Hồng Rayon SHBR-20005
+4	Bộ chăn ga gối Basic mã mầu BC-27
+5	Mẫu chăn ga gối Basic mã mầu BC-26
+6	Chăn ga gối cotton Basic mã BC-10
+7	Mẫu chăn ga gối dòng Basic mã mầu BC-03
+8	Bộ chăn ga gối Basic collection mã mầu BC-02
