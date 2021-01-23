@@ -18,7 +18,6 @@ const navSlide = () =>{
         })
         burger.classList.toggle('toggle');
     })
-    
 }
 
 navSlide();
@@ -36,6 +35,8 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+
 
 
 

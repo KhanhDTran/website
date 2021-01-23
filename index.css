@@ -248,6 +248,16 @@ footer{
     background-color: #40c1db;
 }
 
+#page{
+    background: #556270; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #556270, #ff6b6b); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #556270, #ff6b6b);
+    background-repeat: no-repeat;
+    background-size: 100% 0.1em;
+    background-position: 0 95%;
+    transition: background-size 0.25s ease-in;
+}
+
 .modal {
     display: none;
     position: fixed;
