@@ -37,15 +37,18 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 
-var modalEle = document.querySelector(".modal");
-var modalImage = document.querySelector(".modalImage");
-Array.from(document.querySelectorAll(".ImgThumbnail")).forEach(item => {
-   item.addEventListener("click", event => {
-      modalEle.style.display = "block";
-      modalImage.src = event.target.src;
-   });
-});
-document.querySelector(".close").addEventListener("click", () => {
-   modalEle.style.display = "none";
-});
+
+var navlist = document.getElementById('navlist')
+var remsaogo = document.getElementById('remsaogo')
+console.log(remsaogo.offsetTop);
+window.onscroll = function(){
+    
+    if(window.pageYOffset > 500 ){
+        navlist.style.position = "fixed";
+    }
+    else{
+        navlist.style.position = "absolute";
+    }
+}
+
 
