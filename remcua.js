@@ -38,17 +38,5 @@ function topFunction() {
 }
 
 
-var navlist = document.getElementById('navlist')
-var remsaogo = document.getElementById('remsaogo')
-console.log(remsaogo.offsetTop);
-window.onscroll = function(){
-    
-    if(window.pageYOffset > 500 ){
-        navlist.style.position = "fixed";
-    }
-    else{
-        navlist.style.position = "absolute";
-    }
-}
 
 
