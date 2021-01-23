@@ -75,6 +75,7 @@ main{
     background: #DAD299;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #B0DAB9, #DAD299);  
     background: linear-gradient(to right, #B0DAB9, #DAD299); 
+    overflow: hidden;
 }
 
 footer{
