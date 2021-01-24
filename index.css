@@ -377,8 +377,8 @@ main{
     }
 
     .column {
-        flex: 100%;
-        max-width: 100%;
+        flex: 50%;
+        max-width: 50%;
     }
 
     .intro .img-logo{
