@@ -76,7 +76,7 @@ main{
     background: #DAD299;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #B0DAB9, #DAD299);  
     background: linear-gradient(to right, #B0DAB9, #DAD299); 
-    overflow-X: hidden;
+    overflow-x: hidden;
 }
 
 footer{
@@ -595,7 +595,7 @@ main{
     }
 
     .intro .intro-text{
-        font-size: 50px;
+        font-size: 40px;
     }
 
     .container .title{
