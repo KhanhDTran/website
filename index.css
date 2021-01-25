@@ -337,7 +337,7 @@ main{
 
 @media screen and (max-width: 510px){
     body{
-        overflow: hidden;
+        overflow-x: hidden;
     }
 
 
