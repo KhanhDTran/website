@@ -262,13 +262,6 @@ footer{
     .btnlist span{
         font-size: 15px;
     }
-
-    .nav-links a{
-        font-size: 10px;
-    }
-    .nav-lists a{
-        font-size: 10px;
-    }
 }
 
 @media screen and (min-width: 901px) and (max-width: 1400px){
@@ -308,6 +301,11 @@ footer{
     .right-box .container-box .phone{
         margin-top: 10px;
         margin-bottom: 10px;
+    }
+
+    .right-box h2{
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 }
 
