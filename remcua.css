@@ -6,6 +6,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 nav{
@@ -238,7 +239,7 @@ footer{
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 98%;
+    width: 100%;
 }
 
 .container{
@@ -350,13 +351,13 @@ footer{
 
     #img-main-intro{
         object-fit: cover;
-        width: 90%;
+        width: 100%;
        
     }
     
     .main-intro-text{
         
-        width: 90%;
+        width: 100%;
         align-items: center;
     }
 
