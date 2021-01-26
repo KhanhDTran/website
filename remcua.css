@@ -246,7 +246,7 @@ footer{
 }
 
 .container .title {
-    margin-top: 16vh;
+    margin-top: 8vh;
 }
 
 .container .title h2{
@@ -313,9 +313,8 @@ footer{
   background: linear-gradient(to right, #606c88, #3f4c6b);
   padding: 1px;
   object-fit: cover;
+  border-radius: 2%;
 }
-
-
 
 @media screen and (max-width: 510px){
     body{
@@ -433,10 +432,6 @@ footer{
     .intro-text{
         font-size: 25px;
         color: #00360a;
-    }
-
-    .container .title {
-        margin-top: 8vh;
     }
 
     .grid-container{
@@ -614,10 +609,6 @@ footer{
     .intro-text{
         font-size: 40px;
         color: #00360a;
-    }
-    
-    .container .title {
-        margin-top: 8vh;
     }
 
     .grid-container{
