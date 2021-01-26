@@ -109,22 +109,22 @@
                         <h2 style="text-align: center;" >Rèm vải</h2>
                     </div>
                     <div class="grid-container">
-                        <div class="grid-item"><img src="images/curtain/remvai/1.jpg" alt=""></div>
-                        <div class="grid-item"><img src="images/curtain/remvai/2.png" alt=""></div>
-                        <div class="grid-item"><img src="images/curtain/remvai/3.jpg" alt=""></div>  
-                        <div class="grid-item"><img src="images/curtain/remvai/4.jpg" alt=""></div>
-                        <div class="grid-item"><img src="images/curtain/remvai/5.jpg" alt=""></div>
-                        <div class="grid-item"><img src="images/curtain/remvai/6.png" alt=""></div>  
-                        <div class="grid-item"><img src="images/curtain/remvai/7.jpg" alt=""></div>
-                        <div class="grid-item"><img src="images/curtain/remvai/8.jpg" alt=""></div>
-                        <div class="grid-item"><img src="images/curtain/remvai/9.jpg" alt=""></div>  
-                        <div class="grid-item"><img src="images/curtain/remvai/10.jpg" alt=""></div>
-                        <div class="grid-item"><img src="images/curtain/remvai/11.jpg" alt=""></div>
-                        <div class="grid-item"><img src="images/curtain/remvai/12.jpg" alt=""></div>  
-                        <div class="grid-item"><img src="images/curtain/remvai/13.jpg" alt=""></div>
-                        <div class="grid-item"><img src="images/curtain/remvai/14.jpg" alt=""></div>
-                        <div class="grid-item"><img src="images/curtain/remvai/15.jpg" alt=""></div> 
-                        <div class="grid-item"><img src="images/curtain/remvai/15.jpg" alt=""></div> 
+                        <div class="grid-item"><img class="ImgThumbnail" src="images/curtain/remvai/1.jpg" alt=""></div>
+                        <div class="grid-item"><img class="ImgThumbnail" src="images/curtain/remvai/2.png" alt=""></div>
+                        <div class="grid-item"><img class="ImgThumbnail" src="images/curtain/remvai/3.jpg" alt=""></div>  
+                        <div class="grid-item"><img class="ImgThumbnail" src="images/curtain/remvai/4.jpg" alt=""></div>
+                        <div class="grid-item"><img class="ImgThumbnail" src="images/curtain/remvai/5.jpg" alt=""></div>
+                        <div class="grid-item"><img class="ImgThumbnail" src="images/curtain/remvai/6.png" alt=""></div>  
+                        <div class="grid-item"><img class="ImgThumbnail" src="images/curtain/remvai/7.jpg" alt=""></div>
+                        <div class="grid-item"><img class="ImgThumbnail" src="images/curtain/remvai/8.jpg" alt=""></div>
+                        <div class="grid-item"><img class="ImgThumbnail" src="images/curtain/remvai/9.jpg" alt=""></div>  
+                        <div class="grid-item"><img class="ImgThumbnail" src="images/curtain/remvai/10.jpg" alt=""></div>
+                        <div class="grid-item"><img class="ImgThumbnail" src="images/curtain/remvai/11.jpg" alt=""></div>
+                        <div class="grid-item"><img class="ImgThumbnail" src="images/curtain/remvai/12.jpg" alt=""></div>  
+                        <div class="grid-item"><img class="ImgThumbnail" src="images/curtain/remvai/13.jpg" alt=""></div>
+                        <div class="grid-item"><img class="ImgThumbnail" src="images/curtain/remvai/14.jpg" alt=""></div>
+                        <div class="grid-item"><img class="ImgThumbnail" src="images/curtain/remvai/15.jpg" alt=""></div> 
+                        <div class="grid-item"><img class="ImgThumbnail" src="images/curtain/remvai/15.jpg" alt=""></div> 
                       </div>
                 </div>
 
@@ -181,6 +181,19 @@
     <button onclick="topFunction()" id="myBtn" title="Go to top">
         <i class="fas fa-arrow-up"></i>
       </button>
+
+      <div class="modal">
+        <span class="close">x</span>
+        <img src="" alt="" class="modalImage" id="img01">
+      </div>
+  
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init({
+          offset: 200,
+          duration: 500
+        });
+      </script>
     <script src="remcua.js"></script>
 </body>
 </html>

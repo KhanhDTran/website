@@ -48,9 +48,6 @@ const navListSlide = () =>{
 
 navListSlide();
 
-
-
-
 var mybutton = document.getElementById("myBtn");
 window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
@@ -64,3 +61,16 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+var modalEle = document.querySelector(".modal");
+var modalImage = document.querySelector(".modalImage");
+Array.from(document.querySelectorAll(".ImgThumbnail")).forEach(item => {
+   item.addEventListener("click", event => {
+      modalEle.style.display = "block";
+      modalImage.src = event.target.src;
+   });
+});
+document.querySelector(".close").addEventListener("click", () => {
+   modalEle.style.display = "none";
+});
+
