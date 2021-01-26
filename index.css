@@ -76,7 +76,7 @@ main{
     background: #DAD299;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #B0DAB9, #DAD299);  
     background: linear-gradient(to right, #B0DAB9, #DAD299); 
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 footer{
@@ -201,7 +201,7 @@ footer{
 }
 
 .intro .intro-text{
-    font-size: 40px;
+    font-size: 35px;
     padding-left: 10px;
     color: #500357;
 }
@@ -594,6 +594,13 @@ main{
         font-size: 45px;
     }
 
+<<<<<<< HEAD
+=======
+    .intro .intro-text{
+        font-size: 40px;
+    }
+
+>>>>>>> 335ce89279e0a78f5f3bc98fc7227d0e90cc74bb
     .container .title{
         font-size: 50px;
     }
