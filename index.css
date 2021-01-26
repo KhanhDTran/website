@@ -274,8 +274,8 @@ footer{
 .modalImage {
     margin: auto;
     display: block;
-    width: 90;
-    height: 90%;
+    max-height: 80vh;
+    max-width: 90%;
 }
 
  .close {
@@ -300,7 +300,6 @@ footer{
   background: linear-gradient(to right, #606c88, #3f4c6b);
   padding: 1px;
   object-fit: cover;
-
 }
 
 .ImgThumbnail:hover{
@@ -329,8 +328,6 @@ main{
     body{
         overflow-x: hidden;
     }
-
-
     nav{
         width: 100%;
     }
@@ -410,11 +407,6 @@ main{
         align-items: center;
     }
 
-    .modalImage{
-        margin-top: 50px;
-        width: 90%;
-        height: auto;
-    }
     .aside{
         width: 2%;
     }
@@ -451,11 +443,6 @@ main{
     }
     .right-box{
         font-size: 30px;
-    }
-    .modalImage{
-        margin-top: 0;
-        width: 65%;
-        height: auto;
     }
 
     .right-box .container-box .content{
@@ -526,12 +513,6 @@ main{
         font-size: 25px;
     }
 
-    .modalImage{
-        margin-top: 100px;
-        width: 90%;
-        height: auto;
-    }
-
     .aside{
         width: 2%;
     }
@@ -584,13 +565,9 @@ main{
         font-size: 45px;
     }
 
-<<<<<<< HEAD
-=======
     .intro .intro-text{
         font-size: 40px;
     }
-
->>>>>>> 335ce89279e0a78f5f3bc98fc7227d0e90cc74bb
     .container .title{
         font-size: 50px;
     }
